@@ -11,6 +11,7 @@ public class Crypto1A {
             ch += shift;
             if (ch >= 26)
                 ch = ch % 26;
+            ch += 97;
             char c = (char) ch;
             System.out.print(c);
         }
