@@ -1,7 +1,7 @@
 import java.awt.Point;
 import java.util.*;
 
-class PlayFairCipher {
+public class Main {
     private static char[][] charTable;
     private static Point[] positions;
 
